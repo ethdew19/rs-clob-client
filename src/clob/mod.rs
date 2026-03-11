@@ -1,6 +1,6 @@
 //! Polymarket CLOB (Central Limit Order Book) API client and types.
 //!
-//! **Feature flag:** None (this is the core module, always available)
+//! **Feature flag:** `clob` (required to use this module)
 //!
 //! This module provides the primary client for interacting with the Polymarket CLOB API,
 //! which handles all trading operations including order placement, cancellation, market
@@ -135,9 +135,6 @@
 //! # Optional Features
 //!
 //! - **`ws`**: Enables WebSocket support for real-time orderbook and trade streams
-//! - **`heartbeats`**: Enables automatic heartbeat mechanism for authenticated sessions
-//! - **`tracing`**: Enables detailed request/response tracing
-//! - **`rfq`**: Enables RFQ (Request for Quote) endpoints for institutional trading
 //!
 //! # API Base URL
 //!

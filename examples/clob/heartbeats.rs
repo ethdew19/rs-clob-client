@@ -2,7 +2,7 @@
 //!
 //! Run with:
 //! ```sh
-//! RUST_LOG=debug,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example heartbeats --features heartbeats,tracing
+//! RUST_LOG=debug,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example heartbeats --features heartbeats,tracing,clob
 //! ```
 //!
 use std::str::FromStr as _;

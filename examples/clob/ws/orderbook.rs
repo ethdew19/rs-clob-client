@@ -7,12 +7,12 @@
 //!
 //! Run with tracing enabled:
 //! ```sh
-//! RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_orderbook --features ws,tracing
+//! RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_orderbook --features ws,tracing,clob
 //! ```
 //!
 //! Optionally log to a file:
 //! ```sh
-//! LOG_FILE=websocket_orderbook.log RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_orderbook --features ws,tracing
+//! LOG_FILE=websocket_orderbook.log RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_orderbook --features ws,tracing,clob
 //! ```
 
 use std::fs::File;

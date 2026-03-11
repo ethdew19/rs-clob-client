@@ -7,17 +7,17 @@
 //!
 //! Run with tracing enabled:
 //! ```sh
-//! RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_unsubscribe --features ws,tracing
+//! RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_unsubscribe --features ws,tracing,clob
 //! ```
 //!
 //! Optionally log to a file:
 //! ```sh
-//! LOG_FILE=websocket_unsubscribe.log RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_unsubscribe --features ws,tracing
+//! LOG_FILE=websocket_unsubscribe.log RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_unsubscribe --features ws,tracing,clob
 //! ```
 //!
 //! With debug level, you can see subscribe/unsubscribe wire messages:
 //! ```sh
-//! RUST_LOG=debug,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_unsubscribe --features ws,tracing
+//! RUST_LOG=debug,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example websocket_unsubscribe --features ws,tracing,clob
 //! ```
 
 use std::fs::File;

@@ -6,17 +6,17 @@
 //!
 //! Run with tracing enabled:
 //! ```sh
-//! RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example streaming --features tracing
+//! RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example streaming --features tracing,clob
 //! ```
 //!
 //! Optionally log to a file:
 //! ```sh
-//! LOG_FILE=streaming.log RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example streaming --features tracing
+//! LOG_FILE=streaming.log RUST_LOG=info,hyper_util=off,hyper=off,reqwest=off,h2=off,rustls=off cargo run --example streaming --features tracing,clob
 //! ```
 //!
 //! For authenticated streaming, set the `POLYMARKET_PRIVATE_KEY` environment variable:
 //! ```sh
-//! POLYMARKET_PRIVATE_KEY=0x... RUST_LOG=info cargo run --example streaming --features tracing
+//! POLYMARKET_PRIVATE_KEY=0x... RUST_LOG=info cargo run --example streaming --features tracing,clob
 //! ```
 
 use std::fs::File;
